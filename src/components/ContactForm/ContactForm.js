@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getContacts } from 'redux/selectors';
 import { addContact } from 'redux/contactsSlice';
 import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
 import * as Yup from 'yup';
 import { Formik } from 'formik';
 import { customAlphabet } from 'nanoid';
